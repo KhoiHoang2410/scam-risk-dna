@@ -1,0 +1,644 @@
+{
+  "archetypes": [
+    {
+      "slug": "commander",
+      "name": "The Commander",
+      "element": "fire",
+      "tagline": "I don't follow the plan — I am the plan.",
+      "core_trait": "The Commander leads through sheer force of will and strategic clarity. They process the world through ambition and efficiency — when an opportunity appears, they're already three steps ahead calculating the return. Their confidence in their own judgment is their greatest asset and their most dangerous blind spot.",
+      "strengths": [
+        "Decisive and fast-moving in high-pressure situations",
+        "Naturally skeptical of people who seem weak or passive",
+        "Strong at setting expectations and enforcing boundaries in negotiations"
+      ],
+      "blind_spots": [
+        "Overestimates their ability to out-think a scammer in real time",
+        "Dismisses warnings from others as being overcautious",
+        "Pride makes it hard to admit they've been deceived even after the fact"
+      ],
+      "primary_scam": "Investment / Opportunity Scams",
+      "secondary_scam": "Triangle Scams",
+      "scam_vulnerability_details": "The Commander's confidence in their own analytical ability is the attack surface. They believe their judgment is more reliable than external safety protocols, which means they skip verification steps they consider beneath their level. A scammer who matches their language of strategy, ROI, and high-leverage positioning can feed directly into the Commander's self-narrative as someone who sees what others miss. Commanders are drawn to high-stakes plays framed as exclusive, strategic, and time-sensitive. Fast multi-party transaction management is a strength the Commander overestimates — their speed in closing deals across multiple parties means they don't slow down to verify whether two simultaneous transactions are being deliberately coordinated to exploit them.",
+      "compatible_types": [
+        "analyst",
+        "visionary",
+        "executive"
+      ],
+      "clashing_types": [
+        "peacemaker",
+        "dreamer"
+      ],
+      "safe_tips": [
+        "Your verification process is only as strong as the source you verify against — build a personal pre-trade checklist that you authored, and run it every single time, even for deals you're confident about. Confidence is earned by following your own protocol, not by skipping it.",
+        "A scammer who flatters your intelligence and offers you what others miss is using your self-image as the attack vector — pause when an opportunity is presented as existing specifically because you're smart enough to see it. The pitch is too perfect when it mirrors your identity back at you.",
+        "Pressure tactics are amateur-hour to you — but sophisticated scammers know that, so they use intellectual urgency instead: the window closes for strategic reasons. Recognize that any manufactured deadline is a red flag regardless of how credible the framing is.",
+        "Your decisiveness is an asset in leadership and a liability in fraud — apply the same discipline to unverified financial opportunities that you'd apply to hiring: references checked, history verified, independent sources consulted.",
+        "If you've been deceived, your instinct will be to solve it yourself and never mention it — override that instinct, because reporting quickly to the platform and authorities is the only move that recovers assets and protects others."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "GUT",
+      "dec_pole": "LOG",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "speed-racer",
+      "name": "The Speed Racer",
+      "element": "fire",
+      "tagline": "Why wait? The window is open now.",
+      "core_trait": "The Speed Racer lives in the present moment, reading situations in real time and acting on instinct backed by observation. They're excellent at reading body language and social cues — but only in person. Digital interactions strip away their superpower, leaving them exposed to scripted deception they can't physically sense.",
+      "strengths": [
+        "Excellent at detecting in-person inconsistencies",
+        "High adaptability — they pivot quickly when something feels off",
+        "Practical and results-driven; not easily swayed by vague promises"
+      ],
+      "blind_spots": [
+        "Digital/remote scams bypass their physical-world radar entirely",
+        "Impatience leads to skipping verification steps",
+        "Treats online interactions with the same real-time reading skills, which don't transfer"
+      ],
+      "primary_scam": "Phishing",
+      "secondary_scam": "SMS / Fake Notification Scams",
+      "scam_vulnerability_details": "The Speed Racer is a real-world predator in live social settings — they read body language, energy shifts, and behavioral inconsistencies in real time. But their superpower disappears entirely in digital environments. Remote and asynchronous interactions strip out all the sensory data they rely on. A text message, an email, a designed web interface — none of these give them the human signal they need to detect deception. Speed Racers click first, read later. An urgent email with a convincing design will get an immediate click before they stop to verify the sender. They trust what's on their screen right now — a text that looks like their bank is good enough confirmation.",
+      "compatible_types": [
+        "wildcard",
+        "performer",
+        "tinkerer"
+      ],
+      "clashing_types": [
+        "logician",
+        "guardian"
+      ],
+      "safe_tips": [
+        "Your real-world pattern detection is excellent, but it doesn't transfer to digital environments — build a physical habit that creates a pause before any link click: lock your screen for five seconds, then decide. That gap is your superpower switched on.",
+        "Create direct app shortcuts for every financial platform you use and make a rule: never access them through a link in an email or SMS, always through your own shortcut. This makes phishing attempts structurally impossible to succeed on you.",
+        "Your speed is an asset after you verify, not before — let verify first, move fast be your sequence rather than move fast, verify later if there's a problem.",
+        "When you feel urgency, treat that feeling as a signal to slow down, not speed up — urgency is almost always manufactured by the other party, and manufactured urgency is the tell that something isn't right.",
+        "Trust your in-person reads completely; be openly skeptical of digital ones — if a digital counterparty would not pass your face-to-face read, they haven't passed any read at all."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "FAC",
+      "dec_pole": "LOG",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "spark",
+      "name": "The Spark",
+      "element": "fire",
+      "tagline": "I see who you could be — and I want to help you get there.",
+      "core_trait": "The Spark is a natural catalyst — they energize people and situations around them. They lead with empathy and vision, always looking for the best in others. Their social intelligence is remarkable, but it's calibrated toward authentic human connection. Scammers who perform vulnerability or appeal to The Spark's desire to uplift others will find a willing target.",
+      "strengths": [
+        "High emotional intelligence — reads people's moods and needs quickly",
+        "Strong communicator; builds trust rapidly",
+        "Proactive about protecting people they care about"
+      ],
+      "blind_spots": [
+        "Instinctively wants to rescue people in distress, even strangers",
+        "Guilt-tripped or emotionally manipulated with ease",
+        "Mistakes polished social performance for authentic character"
+      ],
+      "primary_scam": "Romance / Social Engineering",
+      "secondary_scam": "Impersonator Scams",
+      "scam_vulnerability_details": "The Spark's emotional intelligence is extraordinarily accurate in genuine human relationships — they read people well because most people can't sustain a performance. But professional scammers can. A romance scammer who has run the same script fifty times has refined their emotional performance to be virtually indistinguishable from authentic connection. The Spark's calibrated radar was built for genuine human unpredictability, not for scripted emotional manipulation. The Spark forms emotional connections fast and deep — a well-constructed emotional narrative will bypass all rational filters. They respect authority and institutions; an official tone and title will be trusted at face value.",
+      "compatible_types": [
+        "empath",
+        "guardian",
+        "dreamer"
+      ],
+      "clashing_types": [
+        "analyst",
+        "logician"
+      ],
+      "safe_tips": [
+        "Your emotional intelligence is accurate for genuine people in genuine contexts — professional scammers are the rare exception it isn't calibrated for, so add one rule: any relationship that escalates fast AND involves a financial element gets a mandatory cooling-off period. Not because you're wrong about them — because this specific combination is the pattern.",
+        "Protecting yourself IS protecting the people who depend on you — frame verification not as distrust of a person but as honoring your responsibility to your own community and wellbeing. It's an act of care, not an accusation.",
+        "Before helping someone financially, ask yourself whether you'd be comfortable if a trusted friend could see the full picture of this interaction — if the answer creates hesitation, listen to that hesitation.",
+        "Authority impersonators are specifically effective on people who respect institutions — when someone official contacts you unexpectedly, hang up and call the official number you find yourself. This is always correct, and legitimate institutions will tell you the same.",
+        "Your natural instinct is to restore harmony — channel that into the relationship after verification, not instead of it. I just need to check one thing, because I want this to be right for both of us is perfectly in character and fully protective."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "GUT",
+      "dec_pole": "HAR",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "wildcard",
+      "name": "The Wildcard",
+      "element": "fire",
+      "tagline": "Rules are just suggestions with extra steps.",
+      "core_trait": "The Wildcard loves intellectual sparring and thrives on novelty. They're drawn to unconventional ideas and contrarian perspectives, which makes them great innovators — and terrible at recognizing when they're being played by a scammer who mirrors their own cleverness back at them.",
+      "strengths": [
+        "Quick thinker who can spot obvious inconsistencies",
+        "Skeptical of mainstream narratives — doesn't fall for obvious scams",
+        "Enjoys researching things deeply when curiosity is piqued"
+      ],
+      "blind_spots": [
+        "Overconfident that they can win any intellectual game, even against a scammer",
+        "Attracted to insider knowledge and niche investment opportunities",
+        "Dismisses conventional safety advice as unsophisticated"
+      ],
+      "primary_scam": "Investment / Opportunity Scams",
+      "secondary_scam": "Man-in-the-Middle (MitM) Scams",
+      "scam_vulnerability_details": "The Wildcard's attraction to unconventional ideas and their dismissal of mainstream safety thinking creates a specific attack surface: scams dressed up as insider knowledge, contrarian plays, and systems most people don't understand. They don't fall for obvious scams — they fall for clever ones. And their confidence that they can identify clever scams is itself the exploit. Complex, technically sophisticated schemes that require intelligence to appreciate are catnip for the Wildcard. Their comfort operating across Telegram, Discord, and off-platform tools means they've normalized the exact behavior MitM scammers rely on.",
+      "compatible_types": [
+        "speed-racer",
+        "analyst",
+        "commander"
+      ],
+      "clashing_types": [
+        "protector",
+        "guardian"
+      ],
+      "safe_tips": [
+        "Your skepticism of mainstream advice is usually well-founded, but scammers know this and specifically construct sophisticated schemes for people like you — a scam that requires intelligence to appreciate is not proof that it's legitimate.",
+        "Before committing to any technical investment opportunity, apply your analytical ability to the verification layer, not just the concept layer: find the on-chain audit, verify the team's history independently, check the smart contract's permission scope. Sophistication of idea does not equal integrity of execution.",
+        "The communities that cultivate your trust — Discord servers, closed Telegram groups, niche forums — can be curated by scammers who filtered out skeptics before you arrived. The fact that a room full of smart people believes something does not verify it.",
+        "Your comfort operating off-platform is your largest attack surface — make a rule that any financial transaction happens on a verified, official platform regardless of what better deal exists elsewhere. The better deal is usually the product.",
+        "You're excellent at deconstructing scam mechanics after the fact — use that same energy before you commit. Run a five-minute how would I scam someone with this structure thought experiment on any new opportunity."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "GUT",
+      "dec_pole": "LOG",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "empath",
+      "name": "The Empath",
+      "element": "water",
+      "tagline": "I feel what you feel. That's not a weakness — until it is.",
+      "core_trait": "The Empath operates on a deep frequency of human connection. They pick up on emotional undercurrents that others miss — which means they're often right about people. But scammers are professional emotional performers, and the Empath's instinct to feel into a situation can be weaponized by anyone who knows how to perform distress or warmth convincingly.",
+      "strengths": [
+        "Rarely naive — has strong long-term intuition about character",
+        "Protective of vulnerable people and slow to enable exploitation of others",
+        "Pattern recognition for emotional manipulation (once they've seen it before)"
+      ],
+      "blind_spots": [
+        "Initial gut feeling of this person needs help overrides red flags",
+        "Once committed emotionally, cognitive dissonance prevents exit",
+        "Feels personally responsible when they pull out of a helping situation"
+      ],
+      "primary_scam": "Romance / Social Engineering",
+      "secondary_scam": "Account-Selling Scams",
+      "scam_vulnerability_details": "The Empath doesn't just feel for people — they feel as people. When someone is in distress, the Empath absorbs that reality and responds from inside it, not from outside it. This makes them extraordinary support systems for genuine people in genuine need. It also makes them almost impossible to protect once a scammer has activated their care response. Cognitive dissonance sets in: accepting that the person is lying means accepting that their own deep feeling was wrong. The Empath's deepest vulnerability is a well-crafted emotional story — they don't just sympathize, they absorb the other person's reality. Convinced their account is being used for a good cause by someone in need, they hand over access willingly.",
+      "compatible_types": [
+        "spark",
+        "visionary",
+        "dreamer"
+      ],
+      "clashing_types": [
+        "commander",
+        "speed-racer"
+      ],
+      "safe_tips": [
+        "When someone is in distress and you feel pulled to help financially, create one step between the feeling and the action: tell the person I care about this and I want to make sure I can actually help — give me 24 hours. A real person in real need will respect that. A scammer will escalate pressure.",
+        "Your long-term intuition is more reliable than your immediate empathic response — if you've had small doubts you've been dismissing, write them down and look at them together. Your quieter self often already knows.",
+        "Any financial help that requires using your own account as an intermediary — receiving and forwarding funds — creates legal and financial exposure for you regardless of how real the other person's need feels. This specific ask is always a red flag.",
+        "The love or connection you've built in a relationship is real even if the other person's circumstances were manufactured — recognizing a scam doesn't erase what you felt, and that distinction makes it easier to accept the evidence and act on it.",
+        "You are at your most powerful when you protect yourself with the same fierceness you protect others — make I take care of myself first a value, not a guilty exception. You can't pour from an empty account."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "GUT",
+      "dec_pole": "HAR",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "peacemaker",
+      "name": "The Peacemaker",
+      "element": "water",
+      "tagline": "Everyone walks away happy. That's the only outcome I'll accept.",
+      "core_trait": "The Peacemaker wants frictionless relationships and will absorb discomfort themselves rather than create conflict. They notice inconsistencies but don't speak up because confrontation feels worse than the potential loss. Their desire to keep the peace is so strong that scammers exploit it by manufacturing social pressure — make the Peacemaker feel like asking for verification is an insult.",
+      "strengths": [
+        "Genuinely observant — notices when something looks off",
+        "Doesn't chase high-risk thrills or speculative gains",
+        "Patient and thorough when given enough time and safety"
+      ],
+      "blind_spots": [
+        "Avoids confrontation even when red flags are visible",
+        "Caved to social pressure disguised as just trust me",
+        "Fails to escalate disputes because it'll probably work out"
+      ],
+      "primary_scam": "Cancellation After Payment Scams",
+      "secondary_scam": "Fake Receipt / Escrow Scams",
+      "scam_vulnerability_details": "The Peacemaker's core emotional goal is frictionless harmony. When a scammer introduces social pressure, conflict, or the implication that asking for verification is an insult, the Peacemaker's instinct is to eliminate the friction by complying. They know something might be wrong. But confrontation feels worse than the potential loss. A scammer who creates social pressure triggers the Peacemaker's conflict-avoidance mode — they comply to make the friction stop. Pointing out that the receipt looks wrong feels rude, so they release funds without verifying.",
+      "compatible_types": [
+        "guardian",
+        "protector",
+        "empath"
+      ],
+      "clashing_types": [
+        "commander",
+        "wildcard"
+      ],
+      "safe_tips": [
+        "Script yourself a phrase you say every single time, for every transaction, regardless of who's waiting: I always verify directly in my account before confirming — it's just my process. Delivering it calmly, as a non-negotiable routine, removes the confrontation entirely.",
+        "A counterparty who reacts to reasonable verification with frustration or pressure is giving you the most important information possible — legitimate parties don't get impatient when you follow normal procedures. Their reaction is the data.",
+        "Releasing assets before verification to avoid awkwardness always costs more than the awkwardness would have — the short-term social discomfort of saying hold on is always smaller than the long-term financial and emotional cost of getting scammed.",
+        "You notice more than you act on — your observations about something being slightly off are valuable signals, not paranoia. Trust them enough to ask one clarifying question before proceeding.",
+        "File appeals and report suspicious behavior the same day you encounter it — your instinct is to wait and see if it resolves itself, but platforms can only protect you if you give them information while the trail is fresh."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "GUT",
+      "dec_pole": "HAR",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "dreamer",
+      "name": "The Dreamer",
+      "element": "water",
+      "tagline": "Every stranger is a friend I haven't met yet.",
+      "core_trait": "The Dreamer is contagiously enthusiastic, sees infinite possibility in people and situations, and forms connections at lightning speed. They're the most likely to say I just have a good feeling about this — and to be right most of the time. Except when they're spectacularly wrong. Their optimism is their fuel and their flaw.",
+      "strengths": [
+        "High social intuition — reads authentic excitement vs. performance in casual settings",
+        "Naturally generous and creates goodwill that returns protection in real communities",
+        "Willing to ask questions without ego, which surfaces inconsistencies naturally"
+      ],
+      "blind_spots": [
+        "Leads with trust by default; skepticism feels like betrayal of their own values",
+        "FOMO drives them into time-pressured decisions before they can think",
+        "Shares too much personal information too soon — makes them easy to profile"
+      ],
+      "primary_scam": "Investment / Opportunity Scams",
+      "secondary_scam": "Romance / Social Engineering",
+      "scam_vulnerability_details": "The Dreamer leads with optimism and forms genuine connections quickly. Their belief that most people are good is statistically accurate — but professionally wrong in high-stakes financial transactions, where the rare bad actor is specifically positioned to exploit that assumption. FOMO is the Dreamer's most acute trigger: the sense that a window is closing on something wonderful activates action before analysis. This could change everything is the Dreamer's frequency — a scammer who paints a vision of transformative upside will have the Dreamer mentally committed before any due diligence happens. They don't fall slowly — when the connection feels real, it IS real to them.",
+      "compatible_types": [
+        "spark",
+        "empath",
+        "performer"
+      ],
+      "clashing_types": [
+        "logician",
+        "visionary"
+      ],
+      "safe_tips": [
+        "Make I sleep on all financial decisions with a deadline a non-negotiable personal rule — the decision will almost always look the same tomorrow if it's real, and a scam deadline exists specifically because the opportunity evaporates under scrutiny.",
+        "Social proof from your community is meaningful for almost everything except financial decisions — a friend's enthusiasm about an investment platform doesn't mean they verified it, and their compromised account can post enthusiasm too.",
+        "You're genuinely excellent at research when you're curious rather than rushed — let your curiosity work for you by asking how would I find out if this is real before how do I get in.",
+        "Time pressure and excitement happening simultaneously is a signal pattern, not a coincidence — when a financial opportunity creates urgency and enthusiasm at the same time, that's the exact combination scammers engineer.",
+        "Your optimism is an accurate read of the world most of the time — apply it after verification, not instead of it. If something is real, you'll still be able to be excited about it in 48 hours."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "GUT",
+      "dec_pole": "HAR",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "guardian",
+      "name": "The Guardian",
+      "element": "water",
+      "tagline": "I take care of everyone. Except, apparently, myself.",
+      "core_trait": "The Guardian is the community anchor — reliable, warm, deeply invested in the wellbeing of their circle. They follow established social norms and expect others to do the same. When someone violates that trust, it's genuinely shocking to them. Their belief that decent people behave decently is a beautiful value that scammers parasitize.",
+      "strengths": [
+        "Naturally diligent about following proper process when it's been established",
+        "High social awareness — spots behavioral inconsistencies in people they know",
+        "Community-minded; shares scam warnings quickly once they learn"
+      ],
+      "blind_spots": [
+        "Excessive deference to perceived authority figures or official processes",
+        "Assumes people with good social presentation have good intentions",
+        "Finds it emotionally difficult to accuse someone of lying to their face"
+      ],
+      "primary_scam": "Impersonator Scams",
+      "secondary_scam": "SMS / Fake Notification Scams",
+      "scam_vulnerability_details": "The Guardian believes in institutions, proper channels, and the idea that legitimate authority looks and acts a certain way. This is usually correct — and scammers know it. They manufacture the appearance of institutional legitimacy: official uniforms, correct terminology, plausible-sounding policy, the right tone of professional authority. A scammer in a uniform, using official language, asking them to protect their account triggers full compliance. They trust official-looking communications — a bank SMS that says your account is at risk will have them acting immediately without verification.",
+      "compatible_types": [
+        "protector",
+        "peacemaker",
+        "spark"
+      ],
+      "clashing_types": [
+        "wildcard",
+        "speed-racer"
+      ],
+      "safe_tips": [
+        "Legitimate institutions will never ask you to act on an inbound call without the option to call them back — if an official contact resists you hanging up and calling the official number yourself, they've just told you everything you need to know.",
+        "Build the habit of treating any unexpected contact from a bank, platform, or authority as unverified until you've independently initiated contact — the burden of legitimacy is on the caller, not on you.",
+        "Your trust in proper channels is exactly right — make sure you're using the proper channel, not the one the contact provides. The number on the back of your card is the proper channel. The number they gave you is not.",
+        "Name-matching is non-negotiable: every payment you receive or send should have a verified name that matches the counterparty's identity on the official platform. Close enough is not a match.",
+        "Once you've been scammed or nearly scammed, tell your community — your natural impulse to protect others, combined with your credibility as a trusted figure, makes your warning more effective than any official campaign."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "FAC",
+      "dec_pole": "HAR",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "protector",
+      "name": "The Protector",
+      "element": "earth",
+      "tagline": "I've held this together for a long time. I'm not stopping now.",
+      "core_trait": "The Protector is steady, reliable, and deeply loyal. They prioritize stability and take their responsibilities seriously. They're not drawn to risk — they're drawn to keeping things safe for the people who depend on them. Scammers exploit this by targeting not the Protector directly, but the people they love. Create a threat to a family member, and the Protector will bypass all their usual caution.",
+      "strengths": [
+        "Meticulous and careful with personal information by default",
+        "Slow to trust new parties — takes time before acting on new information",
+        "Excellent at recognizing when a situation deviates from established normal patterns"
+      ],
+      "blind_spots": [
+        "Vulnerability explodes when a loved one is perceived to be at risk",
+        "Defers to seniority and established authority, even when something feels off",
+        "Reluctant to ask for help or report a scam due to shame"
+      ],
+      "primary_scam": "Impersonator Scams",
+      "secondary_scam": "Fake Receipt / Escrow Scams",
+      "scam_vulnerability_details": "The Protector's vulnerability is not in themselves — it's in the people they love. Under normal conditions, the Protector is methodical, careful, and slow to trust new information. Under emergency conditions involving a loved one, all of that collapses. Scammers who target Protectors don't attack them directly — they attack through manufactured crises involving their family, friends, or dependents. The grandparent scam variant triggers the Protector's unconditional protective instinct. Outside of family emergencies, their weakness is documents that mimic official formats — they verify that something looks right rather than verifying the underlying transaction independently.",
+      "compatible_types": [
+        "guardian",
+        "logician",
+        "empath"
+      ],
+      "clashing_types": [
+        "wildcard",
+        "dreamer"
+      ],
+      "safe_tips": [
+        "Create a family verification code — a word or question only real family members would know — and agree on it before any emergency arises. Legitimate family members will use it without hesitation; scammers cannot.",
+        "Any emergency that requires immediate wire transfer without the option to call the person directly on their known number is not an emergency — it's a scripted scenario. Real emergencies have other solutions.",
+        "Your protective instinct is powerful and real; scammers specifically target it because it's the fastest path to bypassing your careful, methodical default mode. Protect that protective instinct by slowing down exactly when you feel most urgency.",
+        "Log directly into your account through the official app to verify every transaction before releasing anything — a document presented by the counterparty is not verification. Your own account is.",
+        "Reporting a scam attempt to the platform and your family immediately is itself an act of protection — you sharing what happened is how you protect everyone around you from the same attack."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "FAC",
+      "dec_pole": "HAR",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "logician",
+      "name": "The Logician",
+      "element": "earth",
+      "tagline": "Show me the data. No, more data. All of it.",
+      "core_trait": "The Logician is methodical, precise, and deeply committed to doing things right. They trust systems, procedures, and documented evidence over gut feelings or social cues. This makes them highly resistant to most scams — but paradoxically, it also makes them vulnerable to scams that mimic legitimate systems with forged documentation or procedural language.",
+      "strengths": [
+        "Low emotional reactivity — pressure tactics don't work on them",
+        "Documents everything by habit — natural evidence trail",
+        "Highly skeptical of unverified claims; demands proof"
+      ],
+      "blind_spots": [
+        "Over-trusts documents and official looking evidence",
+        "Believes that if something follows a logical structure, it must be legitimate",
+        "Takes longer to act, which sometimes means delayed reporting after a scam"
+      ],
+      "primary_scam": "Fake Receipt / Escrow Scams",
+      "secondary_scam": "Chargeback / Check Scams",
+      "scam_vulnerability_details": "The Logician trusts systems and documentation above all else. They've built their defenses around the idea that legitimate processes look a certain way, produce certain artifacts, and follow certain sequences. This is accurate — and it's the exact attack surface. A scammer who produces convincing documentation, follows a plausible procedural script, and uses the right terminology will pass the Logician's primary filter. A forged document that follows the correct format and uses the right language will pass the Logician's pattern-matching check. They verify that payment was sent, but may not wait long enough to confirm it cleared — following the logical sequence doesn't mean the sequence is trustworthy.",
+      "compatible_types": [
+        "analyst",
+        "visionary",
+        "protector"
+      ],
+      "clashing_types": [
+        "dreamer",
+        "spark"
+      ],
+      "safe_tips": [
+        "Your canonical verification source is your own account viewed directly through the official app — no external document, receipt, or screenshot, however well-formatted, substitutes for this. Build this as a logical rule, not a judgment.",
+        "Payment sent and payment cleared and irreversible are two different states — add a mandatory waiting period to your transaction checklist for payment methods that have chargeback or reversal risk.",
+        "A document that follows the correct format proves only that the forger knows the format — independent verification of the underlying transaction through your own institution is the only valid confirmation step.",
+        "Your delayed reporting instinct (wanting to gather more evidence before acting) costs you time the platform needs to help you — submit an appeal the moment you suspect an issue, and continue gathering evidence simultaneously.",
+        "Trust your own verification process completely, including when it produces an uncomfortable result — if your independent check shows the funds haven't arrived, that result is correct even if every document says otherwise."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "FAC",
+      "dec_pole": "LOG",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "executive",
+      "name": "The Executive",
+      "element": "earth",
+      "tagline": "There's a right way to do this. Let's not waste time doing it wrong.",
+      "core_trait": "The Executive brings order to chaos. They're the person who reads the fine print, knows the process, and makes sure everyone follows the rules. Their weakness is the belief that if a process looks official and organized, the underlying intent must be legitimate. Scammers who operate through polished, bureaucratic structures hit the Executive's blind spot perfectly.",
+      "strengths": [
+        "Naturally enforces verification steps in any process they control",
+        "High resistance to emotional manipulation — keeps transactions professional",
+        "Rarely impulsive; makes deliberate decisions after gathering information"
+      ],
+      "blind_spots": [
+        "Trusts bureaucratic structure and formality as signals of legitimacy",
+        "Can be authoritative and stubborn even when wrong, making it hard to accept being deceived",
+        "Dismisses gut feelings or vibes as irrelevant data"
+      ],
+      "primary_scam": "Triangle Scams",
+      "secondary_scam": "Man-in-the-Middle (MitM) Scams",
+      "scam_vulnerability_details": "The Executive trusts structure, procedure, and presentation. When a counterparty or situation looks organized, formal, and professionally managed, the Executive reads that as evidence of legitimacy. Scammers who operate through polished platforms, formal language, and bureaucratic scaffolding bypass the Executive's skepticism entirely. Complex multi-party transactions with official-looking documentation satisfy the Executive's structured checklist without triggering deeper scrutiny. A scammer who presents themselves as a professional intermediary will be treated as a legitimate participant in the process.",
+      "compatible_types": [
+        "commander",
+        "logician",
+        "protector"
+      ],
+      "clashing_types": [
+        "peacemaker",
+        "dreamer"
+      ],
+      "safe_tips": [
+        "Build a pre-trade verification checklist that you authored and enforce it as a non-negotiable standard operating procedure — your trust in process is your strength, so make sure the process includes independent registry checks and direct account verification.",
+        "A counterparty who provides extensive, impressive documentation upfront without being asked is a yellow flag — legitimate parties don't usually over-document unless they've learned that documentation substitutes for scrutiny.",
+        "Verify business credentials in public registries you find yourself, not links the counterparty provides — it takes two minutes and the difference is absolute.",
+        "Name-matching between payment accounts and verified platform identity is required on every transaction, regardless of how professional the rest of the interaction has been.",
+        "Your high resistance to emotional pressure is a real strength — apply the same discipline to procedural pressure. No industry standard requires you to skip independent verification."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "FAC",
+      "dec_pole": "LOG",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "tinkerer",
+      "name": "The Tinkerer",
+      "element": "earth",
+      "tagline": "I'll figure it out. I always figure it out.",
+      "core_trait": "The Tinkerer is a hands-on problem solver who trusts mechanisms over people. They're independent, technically capable, and deeply self-reliant. They engage with systems — digital, mechanical, financial — as puzzles to be understood and optimized. That technical confidence can tip into arrogance, making them vulnerable to scams that operate at the intersection of technology and social manipulation.",
+      "strengths": [
+        "Strong technical literacy — spots obvious digital fraud",
+        "Independent thinker; doesn't follow the crowd into bad decisions",
+        "Calmly analytical; doesn't panic under pressure"
+      ],
+      "blind_spots": [
+        "Overconfident in their ability to detect manipulation in technical systems",
+        "Engages with suspicious systems just to see how it works — inviting compromise",
+        "Dismisses the human/social layer of scams as irrelevant to the technical analysis"
+      ],
+      "primary_scam": "Account-Selling Scams",
+      "secondary_scam": "Phishing",
+      "scam_vulnerability_details": "The Tinkerer's technical confidence is their primary identity. They believe they understand systems deeply enough to protect themselves. But scams that operate at the intersection of technology and social engineering are designed specifically for people who have high technical confidence and low social suspicion. The Tinkerer engages with suspicious systems to see how they work — which is exactly the behavior that compromises them. Presented with a technical loophole or system exploit framing, the Tinkerer is curious enough to engage — and may give up account access in the process. A sophisticated phishing attack that mimics a legitimate technical interface will fool them where a clumsy social scam would not.",
+      "compatible_types": [
+        "analyst",
+        "speed-racer",
+        "logician"
+      ],
+      "clashing_types": [
+        "guardian",
+        "empath"
+      ],
+      "safe_tips": [
+        "Your technical competence is a genuine asset when it's pointed at verification — make it a habit to check wallet permission scopes before any connection, audit the smart contract's permission requests, and use a dedicated secondary wallet for any exploratory interaction.",
+        "Technically interesting and operationally safe are different evaluations that require different processes — run them separately and in order. The interesting part can wait until after the safe part is confirmed.",
+        "Engaging with a suspicious system just to see how it works is the exact behavior that gets accounts compromised — your curiosity is valuable, but channel it after you've sandboxed the interaction, not during a live transaction.",
+        "Any opportunity that's framed as a technical exploit or loophole and requires you to provide account access is a social engineering attack wearing a technical costume. The costume is very convincing; the attack is identical.",
+        "Your independence is your strength — you don't need validation from a community to make decisions, which means you also don't need to be in a community to recognize that the community's consensus isn't verification."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "FAC",
+      "dec_pole": "LOG",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "analyst",
+      "name": "The Analyst",
+      "element": "air",
+      "tagline": "I'm building a model to understand why I'm building this model.",
+      "core_trait": "The Analyst is a relentless pattern-seeker who lives inside abstract frameworks. They're brilliant at identifying logical inconsistencies in systems — but their trust style is paradoxically gut-driven at the conceptual level: they trust an idea if it's internally elegant, regardless of whether it's empirically verified. A scammer who builds an intellectually seductive narrative can bypass their logic checks entirely.",
+      "strengths": [
+        "Can deconstruct scam mechanics once suspicious — breaks down the attack vector clearly",
+        "Low social pressure susceptibility — doesn't care about social approval",
+        "Excellent long-form research ability when sufficiently motivated"
+      ],
+      "blind_spots": [
+        "Trusts clever theories more than grounded verification",
+        "Gets absorbed in understanding a scheme rather than escaping it",
+        "Can be condescending about basic safety practices, believing they're above them"
+      ],
+      "primary_scam": "Investment / Opportunity Scams",
+      "secondary_scam": "Man-in-the-Middle (MitM) Scams",
+      "scam_vulnerability_details": "The Analyst is a master framework builder. When an idea is intellectually coherent and internally elegant, they extend it provisional trust — because coherence feels like evidence. A scammer who constructs a sophisticated narrative with genuine internal logic can build a system that the Analyst's framework-evaluation instincts label as valid. A technically sophisticated scheme with its own internal logic — crypto whitepapers, algorithmic trading bots, DeFi protocols — will capture the Analyst's intellectual attention before their fraud detector activates. Their comfort operating across multiple platforms and off-platform tools creates MitM exposure.",
+      "compatible_types": [
+        "tinkerer",
+        "logician",
+        "visionary"
+      ],
+      "clashing_types": [
+        "guardian",
+        "spark"
+      ],
+      "safe_tips": [
+        "Separate the evaluation of an idea from the evaluation of whether to give money toward it — these are completely different cognitive tasks, and conflating them is exactly where sophisticated fraud hides.",
+        "When an investment opportunity is intellectually compelling, that's the moment to apply more scrutiny, not less — your intelligence is the target, which means a smart pitch should raise your threat level, not lower your guard.",
+        "Any request for financial information or account access that arrives through an intellectually engaging context — a research report, a technical discussion, a developer conversation — should be evaluated with the same skepticism as a cold call. The context is the lure.",
+        "Build a personal due diligence protocol that you apply independently of how much you like the idea — run it every time, make it systematic, and make it dependent on sources you found yourself, not sources the opportunity provided.",
+        "Cold outreach that leads with impressive technical content is a known social engineering pattern — recognize it as a form of credential display designed to build enough trust to lower your guard before the real ask."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "GUT",
+      "dec_pole": "LOG",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "idealist",
+      "name": "The Idealist",
+      "element": "air",
+      "tagline": "I believe people are fundamentally good. I'm working on my trust issues.",
+      "core_trait": "The Idealist is guided by deeply personal values and a vision of the world as it could be. They're drawn to causes, stories, and people that resonate with their internal moral compass. Scammers who frame a transaction as part of a meaningful story — helping someone, supporting a cause, being part of something bigger — will find the Idealist's guard completely down.",
+      "strengths": [
+        "Strong personal ethics — refuses to participate in anything that feels wrong morally",
+        "Deeply loyal to verified trusted sources; follows their guidance carefully",
+        "Sensitive to dishonesty and pretension in personal relationships"
+      ],
+      "blind_spots": [
+        "Story and narrative override evidence and data in decision-making",
+        "Conflict avoidance prevents them from escalating or reporting",
+        "Takes on emotional responsibility for outcomes that aren't theirs to own"
+      ],
+      "primary_scam": "Romance / Social Engineering",
+      "secondary_scam": "Account-Selling Scams",
+      "scam_vulnerability_details": "The Idealist navigates the world through stories and values. A scam that's framed as a moral narrative — helping someone, fighting injustice, supporting a meaningful cause — bypasses the Idealist's analytical filters entirely. They're not naive; they're value-driven. The Idealist writes the story of a relationship with themselves as the compassionate protagonist — a scammer only has to keep performing within that story. Help us fight back against the corrupt system — a narrative appeal with moral framing will have them handing over access.",
+      "compatible_types": [
+        "empath",
+        "dreamer",
+        "peacemaker"
+      ],
+      "clashing_types": [
+        "executive",
+        "commander"
+      ],
+      "safe_tips": [
+        "Any cause that requires financial action within a timeline shorter than 72 hours deserves a mandatory pause — real people, real needs, and real causes all survive a 72-hour verification window. Scammers cannot.",
+        "Verify any organization or cause through sources you find yourself — a search engine, a government registry, an established news source — not through links or documentation provided by the contact who introduced you to it.",
+        "Using your account as an intermediary for someone else's transactions — receiving and forwarding funds — creates serious legal and financial risk for you, regardless of how much you trust the person or believe in the cause.",
+        "The story someone tells you about why they need help is moving and may be real — verify the help mechanism separately. You can believe the story and still refuse the financial structure.",
+        "Your values are your strength and your protection — the moment a financial request makes you feel like saying no is a betrayal of your values, that feeling is being manufactured. Real aligned causes don't require you to bypass your own judgment to support them."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "FAC",
+      "dec_pole": "HAR",
+      "act_pole": "SPO"
+    },
+    {
+      "slug": "visionary",
+      "name": "The Visionary",
+      "element": "air",
+      "tagline": "Everyone else is playing checkers. I'm already three games ahead.",
+      "core_trait": "The Visionary operates with long-range clarity and a strong independent mind. They build elaborate mental models of how systems work and trust those models over external input. This makes them highly resistant to common scams — but paradoxically vulnerable to sophisticated long-con operations that align with their existing mental model of how the world really works.",
+      "strengths": [
+        "Highly skeptical of surface-level claims; demands deep structural logic",
+        "Strategic thinker — often spots systemic risk before others",
+        "Rarely impulsive; runs every decision through a multi-step internal filter"
+      ],
+      "blind_spots": [
+        "Dismisses conventional safety warnings as beneath their strategic level",
+        "Confirmation bias — once they've built a mental model that includes a scam, new evidence is filtered through that model",
+        "Overconfidence in their own intelligence creates a blind spot specifically for intelligence-targeted scams"
+      ],
+      "primary_scam": "Investment / Opportunity Scams",
+      "secondary_scam": "Triangle Scams",
+      "scam_vulnerability_details": "The Visionary has built a sophisticated mental model of how the world works, including how scams and manipulation work. This model is usually right. The vulnerability is that their model is static relative to the scammer's adaptability. The Visionary is specifically vulnerable to strategic-framing scams: early-stage asymmetric positioning, information arbitrage, pre-market access for long-term holders. Multi-party complexity doesn't trigger caution in the Visionary — it triggers engagement, which is exactly where coordinated fraud operates.",
+      "compatible_types": [
+        "analyst",
+        "commander",
+        "empath"
+      ],
+      "clashing_types": [
+        "dreamer",
+        "peacemaker"
+      ],
+      "safe_tips": [
+        "Design a personal due diligence framework for opportunities that match your investment thesis — make independent verification of every material claim a non-negotiable step, and hold it as a standard that reflects your sophistication, not as a concession to caution.",
+        "Exclusive, members-only environments that feel curated for people like you can be curated by scammers for people like you — the filtering that makes a group feel selective can also be the mechanism that removes the skeptics who would protect you.",
+        "A deadline that aligns conveniently with your research timeline is almost always manufactured — your actual thesis-building process has no external deadline, and any investment worth your capital will still exist after you've completed your own verification.",
+        "Dismissing conventional safety warnings as not applicable to my level is itself the vulnerability — the warnings exist because the attack works on the most confident people specifically. Apply your strategic thinking to why the warning exists, not to why it doesn't apply to you.",
+        "Confirmation bias in your mental model means new evidence about a scam gets filtered through a framework that already accepted it as legitimate — when multiple small inconsistencies appear, treat that pattern as data even if each individual point seems minor."
+      ],
+      "soc_pole": "IN",
+      "tru_pole": "GUT",
+      "dec_pole": "LOG",
+      "act_pole": "STR"
+    },
+    {
+      "slug": "performer",
+      "name": "The Performer",
+      "element": "air",
+      "tagline": "Life's a stage, the crowd is live, and I am NOT missing this moment.",
+      "core_trait": "The Performer is fully present — in the room, in the moment, in the energy of whoever they're with. They live for experiences and authentic connection, and they're extraordinarily good at reading the present social reality. But they're almost exclusively present-tense in their awareness: consequences, long-term risks, and off-screen manipulation are outside their natural field of view.",
+      "strengths": [
+        "Genuinely reads energy well in live social settings",
+        "Highly adaptive — pivots quickly when the vibe shifts",
+        "Builds authentic rapport that creates protective community around them"
+      ],
+      "blind_spots": [
+        "Near-zero long-term consequence modeling during exciting moments",
+        "Spending and financial decisions made in the heat of social atmosphere",
+        "Easily influenced by social proof — everyone's doing this, why wouldn't you"
+      ],
+      "primary_scam": "Cash-in-Person Transaction Risks",
+      "secondary_scam": "Investment / Opportunity Scams",
+      "scam_vulnerability_details": "The Performer lives in the present social moment. Their entire intelligence is social and situational — they read the energy in the room and respond to it perfectly. But financial decisions made in high-energy social environments are almost always worse than financial decisions made alone, quietly, with time. The Performer makes deals face-to-face, in the moment, in a good vibe — it felt right is their verification process. When everyone around the Performer is excited about something, they're in — social consensus in their immediate environment is the Performer's primary trust signal.",
+      "compatible_types": [
+        "dreamer",
+        "speed-racer",
+        "guardian"
+      ],
+      "clashing_types": [
+        "logician",
+        "visionary"
+      ],
+      "safe_tips": [
+        "Make it a rule that financial decisions happen in a different environment from where you heard about them — at home, alone, the next day. Social atmospheres are genuinely beautiful, and they are the worst possible context for financial evaluation.",
+        "When people you trust are excited about an opportunity, verify it independently before assuming their excitement reflects their verification — the most effective fraud uses your trusted network as the delivery mechanism.",
+        "A trusted contact who seems unusually persistent about a specific financial opportunity may have had their account compromised — the person you see isn't always the person sending the message.",
+        "Your present-moment intelligence is extraordinary in live social settings; give it the chance to work by removing the social context before making the financial decision. Alone and quiet, your read will be different.",
+        "Your ability to build authentic community around you is a genuine protective asset — cultivate a circle of people you can call with does this seem off to you before committing. Your social intelligence at rest is different from your social intelligence in a charged room."
+      ],
+      "soc_pole": "OUT",
+      "tru_pole": "FAC",
+      "dec_pole": "HAR",
+      "act_pole": "SPO"
+    }
+  ]
+}

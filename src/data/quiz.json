@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "position": 1,
+      "scenario_title": "The Crossroads Tavern",
+      "scene_text": "You're a weary traveler arriving at a mysterious crossroads tavern. The fire crackles, strangers huddle in corners, and a bard in the corner is playing a song that sounds suspiciously like a viral pop hit. The innkeeper calls out: One room left — but you'll have to share the common hall with the other guests, or we've got a quiet broom closet in the back. Your call.",
+      "dimension": "SOC",
+      "options": [
+        {
+          "id": 1,
+          "letter": "A",
+          "text": "Common hall! I want to hear everyone's stories. This bard might know something about the treasure map.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 2,
+          "letter": "B",
+          "text": "Broom closet. I recharge alone. I'll be unstoppable tomorrow.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 3,
+          "letter": "C",
+          "text": "I'll take the common hall but stake out a quiet corner near the fire.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 4,
+          "letter": "D",
+          "text": "I'll host a whole table — round of drinks, let's make this a night to remember.",
+          "score_key": "SOC_OUT"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "position": 2,
+      "scenario_title": "The Crystal Summit",
+      "scene_text": "You've reached the peak of the Crystal Summit after a brutal three-day climb. At the top is a legendary oracle who grants one wish — but there's a catch. You can either ask your wish privately, just you and the oracle, OR you can wish in front of the twelve other travelers who also climbed up. If you wish publicly, the oracle doubles the power of any wish that benefits others.",
+      "dimension": "SOC",
+      "options": [
+        {
+          "id": 5,
+          "letter": "A",
+          "text": "Wish publicly. Double power AND helping others? Obviously the right call.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 6,
+          "letter": "B",
+          "text": "Wish privately. My desire, my business. The crowd changes nothing.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 7,
+          "letter": "C",
+          "text": "Wish publicly — not for the double power, but because I want everyone to witness this moment.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 8,
+          "letter": "D",
+          "text": "Wish privately and quietly. Performing a wish in front of an audience ruins the authenticity.",
+          "score_key": "SOC_IN"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "position": 3,
+      "scenario_title": "The Dragon's Council",
+      "scene_text": "A legendary dragon has called all the realm's adventurers to an emergency council. The dragon has a problem and wants help. When you arrive, you see 300 other heroes have also shown up. You're offered a choice: join a loud group brainstorming circle in the great hall, or head to the smaller strategy room where five specialists are quietly mapping solutions.",
+      "dimension": "SOC",
+      "options": [
+        {
+          "id": 9,
+          "letter": "A",
+          "text": "Great hall. Energy from the crowd is where the best ideas spark. Three hundred heads are better than five.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 10,
+          "letter": "B",
+          "text": "Strategy room. I want focused, deep conversation. Crowds are chaos.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 11,
+          "letter": "C",
+          "text": "Great hall — but I'll take notes for the strategy room later.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 12,
+          "letter": "D",
+          "text": "Strategy room. I'll do my best thinking away from the noise.",
+          "score_key": "SOC_IN"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "position": 4,
+      "scenario_title": "The Enchanted Marketplace",
+      "scene_text": "You've arrived at a legendary floating marketplace that appears only once a year. Every vendor here sells something extraordinary. You have three hours before it vanishes. Do you...",
+      "dimension": "SOC",
+      "options": [
+        {
+          "id": 13,
+          "letter": "A",
+          "text": "Start talking to every single vendor. Their stories are half the treasure.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 14,
+          "letter": "B",
+          "text": "Map the market first, prioritize what you came for, limit vendor small talk to essentials.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 15,
+          "letter": "C",
+          "text": "Find a group of other adventurers and explore together — more eyes, more finds.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 16,
+          "letter": "D",
+          "text": "Go alone, move quietly, trust your own judgment about what's worth your time.",
+          "score_key": "SOC_IN"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "position": 5,
+      "scenario_title": "The Midnight Campfire",
+      "scene_text": "Your quest party made camp for the night. The fire is warm. You finished your watch shift early and have two hours before dawn. The rest of the party is asleep. On one side, you can hear distant laughter from another camp. On the other side is complete silence and a stunning view of the stars.",
+      "dimension": "SOC",
+      "options": [
+        {
+          "id": 17,
+          "letter": "A",
+          "text": "Wander over to the other camp. New people, new information, maybe new allies.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 18,
+          "letter": "B",
+          "text": "Stars and silence. This is rare. Guard it fiercely.",
+          "score_key": "SOC_IN"
+        },
+        {
+          "id": 19,
+          "letter": "C",
+          "text": "Wake up your favorite party member. Stargazing is better with someone you like.",
+          "score_key": "SOC_OUT"
+        },
+        {
+          "id": 20,
+          "letter": "D",
+          "text": "Sit alone with your journal. Process the day. Prepare for tomorrow.",
+          "score_key": "SOC_IN"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "position": 6,
+      "scenario_title": "The Golden Key",
+      "scene_text": "You're exploring an ancient forest when you spot a golden key lying in the middle of the path. It's gleaming, untouched, and seems to hum faintly. There's no lock nearby. No one around. The forest is completely silent.",
+      "dimension": "TRU",
+      "options": [
+        {
+          "id": 21,
+          "letter": "A",
+          "text": "Pick it up immediately. This is absolutely your lucky day. The universe is sending a sign.",
+          "score_key": "TRU_GUT"
+        },
+        {
+          "id": 22,
+          "letter": "B",
+          "text": "Don't touch it. Examine the surroundings first. Look for tracks, disturbed earth, anything unusual.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 23,
+          "letter": "C",
+          "text": "Take a photo and send it to the party's group chat. Crowdsource the decision.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 24,
+          "letter": "D",
+          "text": "Walk away. If something this valuable is just lying here, that's suspicious by definition.",
+          "score_key": "TRU_GUT"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "position": 7,
+      "scenario_title": "The Stranger's Map",
+      "scene_text": "A hooded figure approaches you in the bazaar and offers to sell you a map to the greatest treasure in the known realm. The map looks old — the ink is faded, the paper feels genuinely ancient. The seller's eyes are nervous. They want to leave quickly. They're asking for a price you can afford.",
+      "dimension": "TRU",
+      "options": [
+        {
+          "id": 25,
+          "letter": "A",
+          "text": "Buy it. Something about this person feels real, not performative. The nervousness is authentic.",
+          "score_key": "TRU_GUT"
+        },
+        {
+          "id": 26,
+          "letter": "B",
+          "text": "Ask specific questions first. Where did you find this? Can anyone verify its authenticity?",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 27,
+          "letter": "C",
+          "text": "Offer half the price and pay only if the first landmark on the map checks out.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 28,
+          "letter": "D",
+          "text": "Trust your first impression — this is either a once-in-a-lifetime find or a lesson. Either way, it's worth it.",
+          "score_key": "TRU_GUT"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "position": 8,
+      "scenario_title": "The Oracle's Prophecy",
+      "scene_text": "You consult the great Oracle of the Eastern Spire. The Oracle looks deep into your eyes and says: You will face a great betrayal from someone who smells like cardamom. A week later, you meet a charming merchant — and they definitely smell like cardamom. You've been trading smoothly so far.",
+      "dimension": "TRU",
+      "options": [
+        {
+          "id": 29,
+          "letter": "A",
+          "text": "Trust the Oracle. Wrap up the trade politely and keep your guard up. Prophecies aren't coincidences.",
+          "score_key": "TRU_GUT"
+        },
+        {
+          "id": 30,
+          "letter": "B",
+          "text": "Ignore the Oracle. One smell in common doesn't link them to a prophecy. Continue as normal.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 31,
+          "letter": "C",
+          "text": "Verify what you can: check their trade license, ask around the market, look for inconsistencies.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 32,
+          "letter": "D",
+          "text": "Trust your gut on each individual interaction. If something shifts, you'll feel it before you can name it.",
+          "score_key": "TRU_GUT"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "position": 9,
+      "scenario_title": "The Duplicate Portal",
+      "scene_text": "You need to reach the Northern Kingdom urgently. There are two portals available. Portal A has the royal seal on it, documented history, and official travel papers attached. Portal B has no documentation, but three local travelers who've used it today say it's fine, and it feels right when you stand near it.",
+      "dimension": "TRU",
+      "options": [
+        {
+          "id": 33,
+          "letter": "A",
+          "text": "Portal B. Those three travelers are living proof. Real-world experience beats paperwork.",
+          "score_key": "TRU_GUT"
+        },
+        {
+          "id": 34,
+          "letter": "B",
+          "text": "Portal A. Documented, verified, official. The seal exists for a reason.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 35,
+          "letter": "C",
+          "text": "Portal A — but cross-reference the seal with the kingdom registry before stepping through.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 36,
+          "letter": "D",
+          "text": "Portal B. The right feeling doesn't lie if you've developed it enough. Trust yourself.",
+          "score_key": "TRU_GUT"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "position": 10,
+      "scenario_title": "The Alchemist's Offer",
+      "scene_text": "A legendary alchemist offers to transmute your iron coins into gold — but you have to give them the coins first. They'll have your gold ready by sundown. They have a beautiful shop, friendly staff, and a long line of satisfied customers out front. The catch: the alchemist has no written contract policy and says: Around here, we do business on trust.",
+      "dimension": "TRU",
+      "options": [
+        {
+          "id": 37,
+          "letter": "A",
+          "text": "Hand over the coins. The shop, the staff, the queue — that's all the evidence I need.",
+          "score_key": "TRU_GUT"
+        },
+        {
+          "id": 38,
+          "letter": "B",
+          "text": "Ask to see previous transaction records, speak to one of the waiting customers privately, then decide.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 39,
+          "letter": "C",
+          "text": "Propose a partial arrangement: half the coins now, half when you see the first results.",
+          "score_key": "TRU_FAC"
+        },
+        {
+          "id": 40,
+          "letter": "D",
+          "text": "Go with your read on the alchemist personally. Do their eyes and energy feel trustworthy?",
+          "score_key": "TRU_GUT"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "position": 11,
+      "scenario_title": "The Wounded Rival",
+      "scene_text": "Deep in the Crystal Caverns, you find your longtime rival — wounded, out of supplies, and unable to continue. They were racing you for the same treasure. If you help them, you'll almost certainly lose the race. If you leave them, you win — but they might not make it out. They'd probably leave you if roles were reversed.",
+      "dimension": "DEC",
+      "options": [
+        {
+          "id": 41,
+          "letter": "A",
+          "text": "Help them. We can figure out the treasure situation later. Some things matter more than winning.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 42,
+          "letter": "B",
+          "text": "Leave them. This is a competition. They knew the stakes. You focus on the objective.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 43,
+          "letter": "C",
+          "text": "Help, but negotiate: I'll carry you out — in exchange for you dropping your claim.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 44,
+          "letter": "D",
+          "text": "Help them unconditionally. The treasure means nothing if I'm the kind of person who doesn't.",
+          "score_key": "DEC_HAR"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "position": 12,
+      "scenario_title": "The Party Split",
+      "scene_text": "Your quest party needs to vote on a route. Two options: Path A is shorter but dangerous, with 60% success odds according to the party's ranger. Path B is longer but safe, 95% success. The vote is split 3-3. You're the tiebreaker. The three Path A voters will be devastated if they're overruled — they've been planning this route for weeks.",
+      "dimension": "DEC",
+      "options": [
+        {
+          "id": 45,
+          "letter": "A",
+          "text": "Vote Path B. The math is clear: 95% vs 60%. Their feelings don't change the numbers.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 46,
+          "letter": "B",
+          "text": "Vote Path A. I can't crush three people's plans based on probability alone. We do it their way.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 47,
+          "letter": "C",
+          "text": "Call for more information before voting. Maybe there's a third option we haven't considered.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 48,
+          "letter": "D",
+          "text": "Vote with whichever side seems to need the emotional support more right now.",
+          "score_key": "DEC_HAR"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "position": 13,
+      "scenario_title": "The Cursed Village",
+      "scene_text": "You arrive at a village under a curse: crops are failing, people are leaving, and morale is rock bottom. The village elder offers you two rewards for breaking the curse. Option A: a powerful artifact that will help your personal quest enormously. Option B: enough supplies to feed the village for a full year — but nothing for you.",
+      "dimension": "DEC",
+      "options": [
+        {
+          "id": 49,
+          "letter": "A",
+          "text": "Take the artifact. I can do more good in the world with more power. Self-sacrifice isn't strategy.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 50,
+          "letter": "B",
+          "text": "Take the supplies. This village needs immediate help more than I need a power upgrade.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 51,
+          "letter": "C",
+          "text": "Ask if the artifact can be sold later to buy even more supplies. Maximize total outcome.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 52,
+          "letter": "D",
+          "text": "Take the supplies. Watching them eat will do more for my soul than any artifact.",
+          "score_key": "DEC_HAR"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "position": 14,
+      "scenario_title": "The Trial of Two Truths",
+      "scene_text": "You're serving as judge in a dispute between two merchants at the Royal Court. Merchant A is clearly legally right — their contract is airtight. But you learn that Merchant A gained this advantage by exploiting a loophole that left Merchant B's family in genuine hardship. The law says rule for A. Your conscience says something different.",
+      "dimension": "DEC",
+      "options": [
+        {
+          "id": 53,
+          "letter": "A",
+          "text": "Rule for A. The law exists precisely for moments when feelings cloud judgment. Follow the contract.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 54,
+          "letter": "B",
+          "text": "Rule for B. The spirit of justice matters more than the letter of the law.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 55,
+          "letter": "C",
+          "text": "Rule for A legally, but recommend the court also investigate how the loophole arose.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 56,
+          "letter": "D",
+          "text": "Stall the ruling and try to broker a settlement that gives both parties something.",
+          "score_key": "DEC_HAR"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "position": 15,
+      "scenario_title": "The Doomed Expedition",
+      "scene_text": "Three days from the finish line of a legendary expedition, your navigator admits they've been wrong: the shortcut has added six days of travel, not saved them. Supplies are critically low. You can turn back (guaranteeing everyone's survival but ending the quest), or push forward (high chance of success, meaningful survival risk). The team looks to you.",
+      "dimension": "DEC",
+      "options": [
+        {
+          "id": 57,
+          "letter": "A",
+          "text": "Turn back. The quest isn't worth a single life. We go home.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 58,
+          "letter": "B",
+          "text": "Push forward. We knew the risks when we signed up. Run the numbers, make the call.",
+          "score_key": "DEC_LOG"
+        },
+        {
+          "id": 59,
+          "letter": "C",
+          "text": "Vote. The team makes this decision together — it's not mine alone.",
+          "score_key": "DEC_HAR"
+        },
+        {
+          "id": 60,
+          "letter": "D",
+          "text": "Push forward: calculate rationing options, assign roles, maximize survival odds systematically.",
+          "score_key": "DEC_LOG"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "position": 16,
+      "scenario_title": "The Map Before the Quest",
+      "scene_text": "Your guild assigns you a new quest: recover the stolen Crown of Seasons from an unknown location somewhere in the Eastern Wilds. You have one week before the seasonal window closes. You can spend the first two days in the guild library researching the area — or you can leave immediately and gather intelligence on the road.",
+      "dimension": "ACT",
+      "options": [
+        {
+          "id": 61,
+          "letter": "A",
+          "text": "Library first. Two days of preparation will save me a week of wrong turns.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 62,
+          "letter": "B",
+          "text": "Leave now. The real information is out there, not in books. I'll adapt as I learn.",
+          "score_key": "ACT_SPO"
+        },
+        {
+          "id": 63,
+          "letter": "C",
+          "text": "Leave today but carry a systematic research checklist to fill in as I travel.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 64,
+          "letter": "D",
+          "text": "Hit the road immediately. Planning too much kills the instincts that actually save you in the field.",
+          "score_key": "ACT_SPO"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "position": 17,
+      "scenario_title": "The Shifting Dungeon",
+      "scene_text": "You've entered the legendary Shifting Dungeon — a labyrinth that physically rearranges itself every hour. Previous explorers have left contradictory maps, none of them fully accurate. You have a compass, a torch, and four hours before the magical exit closes.",
+      "dimension": "ACT",
+      "options": [
+        {
+          "id": 65,
+          "letter": "A",
+          "text": "Draw a new map as you go, marking confirmed paths, even if it slows you down.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 66,
+          "letter": "B",
+          "text": "Ditch the maps. Move on feel, observe patterns in how the dungeon shifts, trust your senses.",
+          "score_key": "ACT_SPO"
+        },
+        {
+          "id": 67,
+          "letter": "C",
+          "text": "Set a systematic search pattern: quarter the dungeon, clear each quadrant methodically.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 68,
+          "letter": "D",
+          "text": "Move fast and react fast. The dungeon's shifting is the puzzle — find its rhythm and exploit it.",
+          "score_key": "ACT_SPO"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "position": 18,
+      "scenario_title": "The Merchant's Contract",
+      "scene_text": "You've negotiated a complex trade deal with a prominent merchant guild. The terms are nearly settled. The guild master wants to sign today — they're leaving on a voyage tomorrow. Your advisor whispers: We haven't verified clause 14 yet. The guild master is looking at you expectantly.",
+      "dimension": "ACT",
+      "options": [
+        {
+          "id": 69,
+          "letter": "A",
+          "text": "Pause the signing. Clause 14 needs verification. I'll have an answer by end of day.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 70,
+          "letter": "B",
+          "text": "Sign it. If clause 14 becomes a problem, you'll deal with it then. Don't lose the deal now.",
+          "score_key": "ACT_SPO"
+        },
+        {
+          "id": 71,
+          "letter": "C",
+          "text": "Request a 24-hour hold specifically for clause 14. Protect the deal; protect yourself.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 72,
+          "letter": "D",
+          "text": "Negotiate clause 14 verbally right now, ad hoc, and close the deal without rereading it.",
+          "score_key": "ACT_SPO"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "position": 19,
+      "scenario_title": "The Royal Appointment",
+      "scene_text": "You've been granted an audience with the Queen. You have three days to prepare. Do you...",
+      "dimension": "ACT",
+      "options": [
+        {
+          "id": 73,
+          "letter": "A",
+          "text": "Draft your full presentation, rehearse it, anticipate every possible question, arrive with notes.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 74,
+          "letter": "B",
+          "text": "Show up with a general idea of what you want to say and trust the conversation to go well.",
+          "score_key": "ACT_SPO"
+        },
+        {
+          "id": 75,
+          "letter": "C",
+          "text": "Over-prepare but stay flexible — have a plan A, plan B, and rough plan C.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 76,
+          "letter": "D",
+          "text": "Do minimal preparation. Over-scripting kills authenticity. You perform best when it's real-time.",
+          "score_key": "ACT_SPO"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "position": 20,
+      "scenario_title": "The Final Gate",
+      "scene_text": "You've reached the final gate of the Citadel. Beyond it lies your quest's end. But the gate has a riddle: Choose your nature. Two paths open before you. On the left, a stone corridor — measured, lit, with clear markings at each turn. On the right, a glass bridge over an abyss — thrilling, unmapped, held up by something that hums with energy.",
+      "dimension": "ACT",
+      "options": [
+        {
+          "id": 77,
+          "letter": "A",
+          "text": "Stone corridor. I've come this far by following what's reliable. That doesn't change now.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 78,
+          "letter": "B",
+          "text": "Glass bridge. The unmapped path is where the real discovery lives. I didn't come this far to play it safe.",
+          "score_key": "ACT_SPO"
+        },
+        {
+          "id": 79,
+          "letter": "C",
+          "text": "Stone corridor — but I sprint it. Reliable AND fast.",
+          "score_key": "ACT_STR"
+        },
+        {
+          "id": 80,
+          "letter": "D",
+          "text": "Glass bridge. The hum tells me it's solid. I trust what I can't fully explain.",
+          "score_key": "ACT_SPO"
+        }
+      ]
+    }
+  ]
+}
