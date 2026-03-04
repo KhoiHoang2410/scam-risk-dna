@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/dna-icon.svg" />
@@ -10,6 +10,16 @@
     <meta property="og:description" content="Take the quiz. Discover your risk personality. Learn how to protect yourself." />
     <meta property="og:type" content="website" />
     <title>Scam Risk DNA</title>
+    <!-- FOUC prevention: apply theme class before React mounts -->
+    <script>
+      (function () {
+        try {
+          var s = localStorage.getItem('scam-risk-dna-theme');
+          var isDark = s ? JSON.parse(s)?.state?.isDark !== false : true;
+          if (!isDark) document.documentElement.classList.add('light');
+        } catch (e) {}
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">

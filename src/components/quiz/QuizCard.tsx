@@ -147,7 +147,7 @@ export function QuizCard({
                   ? '#7C3AED'
                   : i === currentIndex
                   ? '#06B6D4'
-                  : 'rgba(255,255,255,0.15)',
+                  : 'var(--quiz-dot-empty)',
               }}
             />
           ))}

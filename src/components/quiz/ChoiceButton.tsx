@@ -41,8 +41,8 @@ export function ChoiceButton({
     <motion.button
       className="w-full text-left rounded-2xl px-4 py-4 md:px-5 flex items-start gap-3 transition-all duration-150 min-h-[56px]"
       style={{
-        background: isSelected ? 'rgba(124, 58, 237, 0.2)' : '#14142B',
-        border: isSelected ? '1px solid #7C3AED' : '1px solid rgba(255,255,255,0.1)',
+        background: isSelected ? 'rgba(124, 58, 237, 0.2)' : 'var(--choice-btn-bg)',
+        border: isSelected ? '1px solid #7C3AED' : '1px solid var(--border-subtle)',
         boxShadow: isSelected
           ? '0 0 0 2px rgba(124,58,237,0.6), 0 4px 24px rgba(124,58,237,0.3)'
           : 'none',
@@ -70,7 +70,7 @@ export function ChoiceButton({
       </motion.span>
       <span
         className="font-body text-base leading-snug flex-1"
-        style={{ color: isSelected ? '#FFFFFF' : '#CBD5E1' }}
+        style={{ color: isSelected ? '#FFFFFF' : 'var(--text-body)' }}
       >
         {option.text}
       </span>

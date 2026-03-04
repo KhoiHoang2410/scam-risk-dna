@@ -12,7 +12,10 @@ export function ProgressBar({ current, total, className = '' }: ProgressBarProps
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <div
+        className="flex-1 h-1.5 rounded-full overflow-hidden"
+        style={{ background: 'var(--progress-track)' }}
+      >
         <motion.div
           className="h-full rounded-full"
           style={{

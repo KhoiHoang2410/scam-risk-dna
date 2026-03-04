@@ -99,10 +99,10 @@ export function getDimensionColor(dimension: string): string {
 
 export function getDimensionGradient(dimension: string): string {
   const gradients: Record<string, string> = {
-    SOC: 'radial-gradient(ellipse at 70% 30%, #020617 0%, #05050F 60%)',
-    TRU: 'radial-gradient(ellipse at 50% 50%, #1E1B4B 0%, #05050F 60%)',
-    DEC: 'radial-gradient(ellipse at 30% 20%, #2A0D00 0%, #05050F 60%)',
-    ACT: 'radial-gradient(ellipse at 50% 70%, #052E16 0%, #05050F 60%)',
+    SOC: 'var(--dim-soc-gradient)',
+    TRU: 'var(--dim-tru-gradient)',
+    DEC: 'var(--dim-dec-gradient)',
+    ACT: 'var(--dim-act-gradient)',
   }
-  return gradients[dimension] ?? 'radial-gradient(ellipse at top, #14142B 0%, #05050F 70%)'
+  return gradients[dimension] ?? 'var(--dim-default-gradient)'
 }

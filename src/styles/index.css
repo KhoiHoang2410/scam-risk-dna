@@ -4,9 +4,77 @@
 
 @layer base {
   :root {
+    /* Typography */
     --font-display: 'Cinzel Decorative', serif;
     --font-body: 'Inter', sans-serif;
     --font-accent: 'Orbitron', monospace;
+
+    /* Dark mode (default) — Background surfaces */
+    --bg-shell:    #05050F;
+    --bg-surface1: #0D0D1A;
+    --bg-surface2: #14142B;
+    --bg-surface3: #1E1E3F;
+
+    /* Dark mode — Text hierarchy */
+    --text-display: #FFFFFF;
+    --text-heading: #E2E8F0;
+    --text-body:    #CBD5E1;
+    --text-caption: #94A3B8;
+    --text-muted:   #475569;
+    --text-inverse: #05050F;
+
+    /* Dark mode — Glass morphism */
+    --glass-bg:     rgba(20, 20, 43, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.10);
+
+    /* Dark mode — Neutral UI accents */
+    --surface-subtle: rgba(255, 255, 255, 0.05);
+    --border-subtle:  rgba(255, 255, 255, 0.10);
+    --border-divider: rgba(255, 255, 255, 0.05);
+
+    /* Dark mode — Quiz-specific */
+    --quiz-dot-empty: rgba(255, 255, 255, 0.15);
+    --progress-track: rgba(255, 255, 255, 0.10);
+    --choice-btn-bg:  #14142B;
+
+    /* Dark mode — Dimension gradients (quiz backgrounds) */
+    --dim-soc-gradient:     radial-gradient(ellipse at 70% 30%, #020617 0%, #05050F 60%);
+    --dim-tru-gradient:     radial-gradient(ellipse at 50% 50%, #1E1B4B 0%, #05050F 60%);
+    --dim-dec-gradient:     radial-gradient(ellipse at 30% 20%, #2A0D00 0%, #05050F 60%);
+    --dim-act-gradient:     radial-gradient(ellipse at 50% 70%, #052E16 0%, #05050F 60%);
+    --dim-default-gradient: radial-gradient(ellipse at top, #14142B 0%, #05050F 70%);
+  }
+
+  /* Light mode overrides */
+  html.light {
+    --bg-shell:    #F2F2FF;
+    --bg-surface1: #E8E8F8;
+    --bg-surface2: #DDDDF0;
+    --bg-surface3: #D0D0E8;
+
+    --text-display: #0A0A1E;
+    --text-heading: #1A1A35;
+    --text-body:    #374151;
+    --text-caption: #4B5563;
+    --text-muted:   #6B7280;
+    --text-inverse: #FFFFFF;
+
+    --glass-bg:     rgba(221, 221, 240, 0.90);
+    --glass-border: rgba(0, 0, 0, 0.08);
+
+    --surface-subtle: rgba(0, 0, 0, 0.04);
+    --border-subtle:  rgba(0, 0, 0, 0.08);
+    --border-divider: rgba(0, 0, 0, 0.06);
+
+    --quiz-dot-empty: rgba(0, 0, 0, 0.12);
+    --progress-track: rgba(0, 0, 0, 0.08);
+    --choice-btn-bg:  #DDDDF0;
+
+    --dim-soc-gradient:     radial-gradient(ellipse at 70% 30%, #BBDAF5 0%, #F2F2FF 60%);
+    --dim-tru-gradient:     radial-gradient(ellipse at 50% 50%, #DDD5F5 0%, #F2F2FF 60%);
+    --dim-dec-gradient:     radial-gradient(ellipse at 30% 20%, #F5D5CC 0%, #F2F2FF 60%);
+    --dim-act-gradient:     radial-gradient(ellipse at 50% 70%, #CCE8D5 0%, #F2F2FF 60%);
+    --dim-default-gradient: radial-gradient(ellipse at top, #E0E0F0 0%, #F2F2FF 70%);
   }
 
   html {
@@ -16,8 +84,8 @@
 
   body {
     font-family: var(--font-body);
-    background-color: #05050F;
-    color: #CBD5E1;
+    background-color: var(--bg-shell);
+    color: var(--text-body);
     min-height: 100vh;
     overflow-x: hidden;
   }
@@ -27,7 +95,7 @@
   }
 
   ::selection {
-    background-color: rgba(124, 58, 237, 0.4);
+    background-color: rgba(124, 58, 237, 0.35);
     color: #ffffff;
   }
 
@@ -36,7 +104,7 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: #0D0D1A;
+    background: var(--bg-surface1);
   }
 
   ::-webkit-scrollbar-thumb {
@@ -63,10 +131,10 @@
   }
 
   .glass-card {
-    background: rgba(20, 20, 43, 0.8);
+    background: var(--glass-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--glass-border);
     border-radius: 16px;
   }
 
