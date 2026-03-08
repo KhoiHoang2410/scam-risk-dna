@@ -225,9 +225,9 @@ export function LandingPage() {
                     <span
                       className="inline-block font-accent text-xs tracking-wider px-2 py-0.5 rounded-md"
                       style={{
-                        background: 'rgba(255,255,255,0.05)',
-                        border: '1px solid rgba(255,255,255,0.1)',
-                        color: '#94A3B8',
+                        background: 'var(--surface-subtle)',
+                        border: '1px solid var(--border-subtle)',
+                        color: 'var(--text-caption)',
                       }}
                     >
                       {arch.core_trait}
@@ -295,7 +295,7 @@ export function LandingPage() {
           </div>
         </section>
 
-        <footer className="py-8 px-4 text-center border-t border-white/5">
+        <footer className="py-8 px-4 text-center border-t" style={{ borderColor: 'var(--border-divider)' }}>
           <p className="text-text-muted text-xs font-accent tracking-widest uppercase">
             Scam Risk DNA · Stay Safe · Know Your Risk
           </p>

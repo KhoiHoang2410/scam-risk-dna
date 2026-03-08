@@ -43,19 +43,21 @@ const config: Config = {
           light:     '#A855F7',
           dark:      '#6D28D9',
         },
+        // Background surfaces — resolved via CSS custom properties for theme switching
         bg: {
-          shell:    '#05050F',
-          surface1: '#0D0D1A',
-          surface2: '#14142B',
-          surface3: '#1E1E3F',
+          shell:    'var(--bg-shell)',
+          surface1: 'var(--bg-surface1)',
+          surface2: 'var(--bg-surface2)',
+          surface3: 'var(--bg-surface3)',
         },
+        // Text hierarchy — resolved via CSS custom properties for theme switching
         text: {
-          display: '#FFFFFF',
-          heading: '#E2E8F0',
-          body:    '#CBD5E1',
-          caption: '#94A3B8',
-          muted:   '#475569',
-          inverse: '#05050F',
+          display: 'var(--text-display)',
+          heading: 'var(--text-heading)',
+          body:    'var(--text-body)',
+          caption: 'var(--text-caption)',
+          muted:   'var(--text-muted)',
+          inverse: 'var(--text-inverse)',
         },
         semantic: {
           success: '#10B981',

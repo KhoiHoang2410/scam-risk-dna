@@ -214,9 +214,9 @@ export function ResultPage() {
                     <button
                       className="w-full sm:w-auto px-6 py-3 rounded-xl font-body font-semibold text-sm"
                       style={{
-                        background: 'rgba(255,255,255,0.05)',
-                        border: '1px solid rgba(255,255,255,0.1)',
-                        color: '#CBD5E1',
+                        background: 'var(--surface-subtle)',
+                        border: '1px solid var(--border-subtle)',
+                        color: 'var(--text-body)',
                       }}
                     >
                       Retake Quiz

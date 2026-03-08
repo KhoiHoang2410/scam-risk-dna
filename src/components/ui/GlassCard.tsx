@@ -21,12 +21,13 @@ export const GlassCard = forwardRef<HTMLDivElement, GlassCardProps>(
         ref={ref}
         className={`
           relative rounded-2xl
-          bg-bg-surface2/80 backdrop-blur-md
-          border border-white/10
+          backdrop-blur-md border
           ${noPadding ? '' : 'p-6'}
           ${className}
         `}
         style={{
+          background: 'var(--glass-bg)',
+          borderColor: glowColor ? `${glowColor}30` : 'var(--glass-border)',
           ...glowStyle,
           ...style,
         }}
