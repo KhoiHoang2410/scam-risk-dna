@@ -12,6 +12,7 @@ import { ResultPage } from '@/pages/ResultPage'
 import { ArchetypesPage } from '@/pages/ArchetypesPage'
 import { ArchetypeDetailPage } from '@/pages/ArchetypeDetailPage'
 import { TipsPage } from '@/pages/TipsPage'
+import { ResumePage } from '@/pages/ResumePage'
 
 function ErrorFallback({ error, resetErrorBoundary }: FallbackProps) {
   const message = error instanceof Error ? error.message : String(error)
@@ -92,6 +93,12 @@ const tipsRoute = createRoute({
   component: TipsPage,
 })
 
+const resumeRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/resume',
+  component: ResumePage,
+})
+
 const routeTree = rootRoute.addChildren([
   indexRoute,
   quizRoute,
@@ -99,6 +106,7 @@ const routeTree = rootRoute.addChildren([
   archetypesRoute,
   archetypeDetailRoute,
   tipsRoute,
+  resumeRoute,
 ])
 
 export const router = createRouter({
