@@ -60,6 +60,31 @@ export function LandingPage() {
       />
 
       <div className="relative z-10">
+        <motion.div
+          className="flex items-center justify-center gap-2 px-4 py-2.5 text-center text-xs font-body"
+          style={{
+            background: 'rgba(124,58,237,0.08)',
+            borderBottom: '1px solid rgba(124,58,237,0.2)',
+          }}
+          initial={{ opacity: 0, y: -8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+        >
+          <span className="text-text-caption">
+            Designed &amp; built by{' '}
+            <span className="text-text-heading font-semibold">Thanh Trang</span>
+            , Product Manager
+          </span>
+          <span className="text-text-muted">·</span>
+          <Link
+            to="/resume"
+            className="font-semibold underline underline-offset-2 transition-colors"
+            style={{ color: '#A855F7' }}
+          >
+            View Résumé
+          </Link>
+        </motion.div>
+
         <section className="min-h-screen flex flex-col items-center justify-center px-4 pt-16 pb-8 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
