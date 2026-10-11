@@ -22,7 +22,7 @@ export const RETRO = {
   ink: "#2A2420",
   shadow: "#C9BBA6",
   paper: "#FFFFFF",
-  muted: "#7A6A55",
+  muted: "#6F604C",
 } as const
 
 export const HASHTAG = "#WhatsYourScamDNA"

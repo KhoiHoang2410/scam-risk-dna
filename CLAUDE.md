@@ -28,7 +28,7 @@ pnpm test:e2e     # Playwright, desktop and mobile (needs pnpm build first)
 
 - Questions describe everyday life and motives, never scams. Scams only appear in results.
 - Copy: plain English, no em or en dashes, no jargon.
-- Light theme only. Element colours are tokens in `globals.css` and hex values in `src/lib/elements.ts` for the cards.
+- Light theme only, retro look site-wide: cream background, ink text and borders, square corners, hard offset shadows (`shadow-retro`, `RetroBox`). Use the theme tokens, not one-off colours. Element colours are tokens in `globals.css` and hex values in `src/lib/elements.ts` for the cards, used only as accents.
 - Keep archetype slugs stable; shared links depend on them.
 - `NEXT_PUBLIC_SITE_URL` sets the URL baked into cards and QR codes (defaults to the production URL).
 - Plan and decisions: `docs/issues/README.md`. Scam research: `docs/research/2026-10-scam-landscape.md`.

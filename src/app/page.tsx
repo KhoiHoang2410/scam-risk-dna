@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowRight, Lock } from "lucide-react"
 import { ArchetypeGrid } from "@/components/site/archetype-grid"
 import { Button } from "@/components/ui/button"
+import { RetroBox } from "@/components/ui/retro-box"
 
 const STEPS = [
   ["Answer 20 quick questions", "Everyday situations, two choices each. No right answers and nothing about scams."],
@@ -21,11 +22,11 @@ export default function LandingPage() {
   return (
     <div className="mx-auto w-full max-w-3xl px-4">
       <section className="py-14 text-center sm:py-24">
-        <p className="text-sm font-medium uppercase tracking-widest text-primary">A 5-minute personality test</p>
+        <p className="font-heading text-sm font-extrabold uppercase tracking-widest text-retro-muted">A 5-minute personality test</p>
         <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl">
           Every personality has a blind spot.
           <br />
-          <span className="text-primary">Scammers know yours.</span>
+          <span className="text-fire">Scammers know yours.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
           Find out how you really make decisions, what changes when you&apos;re stressed, and which scams are built for
@@ -47,22 +48,26 @@ export default function LandingPage() {
         </p>
       </section>
 
-      <section aria-labelledby="how" className="border-t py-12">
+      <section aria-labelledby="how" className="border-t-[3px] border-dashed border-retro-shadow py-12">
         <h2 id="how" className="text-2xl font-bold">
           How it works
         </h2>
         <ol className="mt-6 grid gap-4 sm:grid-cols-3">
           {STEPS.map(([title, body], i) => (
-            <li key={title} className="rounded-2xl border bg-card p-5">
-              <span className="text-sm font-bold text-primary">Step {i + 1}</span>
-              <h3 className="mt-1 font-bold">{title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground">{body}</p>
+            <li key={title}>
+              <RetroBox className="h-full p-5">
+                <span className="font-heading text-sm font-extrabold uppercase tracking-wider text-retro-muted">
+                  Step {i + 1}
+                </span>
+                <h3 className="mt-1 font-bold">{title}</h3>
+                <p className="mt-2 text-sm text-muted-foreground">{body}</p>
+              </RetroBox>
             </li>
           ))}
         </ol>
       </section>
 
-      <section aria-labelledby="types" className="border-t py-12">
+      <section aria-labelledby="types" className="border-t-[3px] border-dashed border-retro-shadow py-12">
         <h2 id="types" className="text-2xl font-bold">
           16 types, 4 elements
         </h2>
@@ -72,20 +77,22 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="rules" aria-labelledby="rules-title" className="scroll-mt-20 border-t py-12">
+      <section id="rules" aria-labelledby="rules-title" className="scroll-mt-20 border-t-[3px] border-dashed border-retro-shadow py-12">
         <h2 id="rules-title" className="text-2xl font-bold">
           5 rules that beat almost every scam
         </h2>
         <ol className="mt-6 grid gap-3">
           {RULES.map(([title, body], i) => (
-            <li key={title} className="flex gap-4 rounded-2xl border bg-card p-4">
-              <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground">
-                {i + 1}
-              </span>
-              <div>
-                <p className="font-bold">{title}</p>
-                <p className="text-sm text-muted-foreground">{body}</p>
-              </div>
+            <li key={title}>
+              <RetroBox className="flex gap-4 p-4 shadow-retro-sm">
+                <span className="flex size-8 shrink-0 items-center justify-center bg-ink font-bold text-white">
+                  {i + 1}
+                </span>
+                <div>
+                  <p className="font-bold">{title}</p>
+                  <p className="text-sm text-muted-foreground">{body}</p>
+                </div>
+              </RetroBox>
             </li>
           ))}
         </ol>
@@ -94,7 +101,7 @@ export default function LandingPage() {
         </p>
       </section>
 
-      <section className="border-t py-14 text-center">
+      <section className="border-t-[3px] border-dashed border-retro-shadow py-14 text-center">
         <h2 className="text-2xl font-bold">Ready to meet your blind spot?</h2>
         <Button asChild size="lg" className="mt-6 h-12 px-8 text-base">
           <Link href="/quiz">

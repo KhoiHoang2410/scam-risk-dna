@@ -28,7 +28,7 @@ Vertical slices for the Next.js rewrite. Execute in dependency order.
 - Share: Web Share API on mobile, copy link and social links on desktop. `next/og` cards (OG 1200x630, story 1080x1920, square 1080x1080) with a QR code to the landing page.
 - Result card layout follows the Cake "What Dog R U" story card. Each type has a spirit animal drawn as a 16x16 pixel grid in `src/content/pixel-art.ts` (scam icons are 12x12). Review them at `/dev/pixel-art` in dev.
 - The card shows the superpower in a quote box, 3 authored meters (2 strengths, then a blind-spot meter of 2 or less), and 3 mini cards: blind-spot buddy, bad influence (same blind-spot pole, other 3 axes flipped) and kryptonite (top scam category).
-- Retro palette: cream `#FBF3E4`, ink `#2A2420`, shadow `#C9BBA6`. The element colour is only an accent. Retro styling covers the result page and `/archetypes`; landing and quiz keep the old look for now.
+- Retro palette: cream `#FBF3E4`, ink `#2A2420`, shadow `#C9BBA6`. The element colour is only an accent. The retro theme is site-wide: tokens in `globals.css` (cream background, ink text and borders, radius 0) and the shadcn `Button` variants carry it, so new screens get it by default.
 - Legacy `/results/:slug` redirects to `/r/:slug`. `/resume` and the PDF are removed.
 
 ## Slice 08 (HITL)

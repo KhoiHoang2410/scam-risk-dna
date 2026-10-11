@@ -35,6 +35,7 @@
   --color-ink: var(--ink);
   --color-retro-shadow: var(--retro-shadow);
   --color-retro-muted: var(--retro-muted);
+  --color-retro-soft: var(--retro-soft);
   --shadow-retro: 6px 6px 0 var(--retro-shadow);
   --shadow-retro-sm: 4px 4px 0 var(--retro-shadow);
   --radius-sm: calc(var(--radius) * 0.6);
@@ -46,25 +47,30 @@
 }
 
 :root {
-  --background: oklch(0.985 0.006 85);
-  --foreground: oklch(0.2 0.02 270);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0.02 270);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0.02 270);
-  --primary: oklch(0.45 0.2 285);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.95 0.02 285);
-  --secondary-foreground: oklch(0.35 0.15 285);
-  --muted: oklch(0.955 0.008 85);
-  --muted-foreground: oklch(0.45 0.02 270);
-  --accent: oklch(0.94 0.03 285);
-  --accent-foreground: oklch(0.35 0.15 285);
+  --cream: #fbf3e4;
+  --ink: #2a2420;
+  --retro-shadow: #c9bba6;
+  --retro-muted: #6f604c;
+  --retro-soft: #f3e8d3;
+  --background: var(--cream);
+  --foreground: var(--ink);
+  --card: #ffffff;
+  --card-foreground: var(--ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: #ffffff;
+  --secondary: var(--retro-soft);
+  --secondary-foreground: var(--ink);
+  --muted: var(--retro-soft);
+  --muted-foreground: var(--retro-muted);
+  --accent: var(--retro-soft);
+  --accent-foreground: var(--ink);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.91 0.01 85);
-  --input: oklch(0.91 0.01 85);
-  --ring: oklch(0.55 0.2 285);
-  --radius: 0.75rem;
+  --border: var(--ink);
+  --input: var(--ink);
+  --ring: oklch(0.5 0.13 235);
+  --radius: 0rem;
   --fire: oklch(0.55 0.2 35);
   --fire-soft: oklch(0.95 0.04 45);
   --water: oklch(0.5 0.13 235);
@@ -73,10 +79,6 @@
   --earth-soft: oklch(0.95 0.04 150);
   --air: oklch(0.5 0.17 290);
   --air-soft: oklch(0.95 0.03 290);
-  --cream: #fbf3e4;
-  --ink: #2a2420;
-  --retro-shadow: #c9bba6;
-  --retro-muted: #7a6a55;
 }
 
 @layer base {
