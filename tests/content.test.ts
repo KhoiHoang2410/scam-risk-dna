@@ -21,8 +21,11 @@ const LEGACY_SLUGS = [
 
 const allCopy = [
   ...questions.flatMap((q) => [q.prompt, ...q.options.map((o) => o.text)]),
-  ...archetypes.flatMap((a) => [a.name, a.tagline, a.coreDesire, a.coreFear, a.superpower, a.blindSpot, ...a.tips]),
-  ...scamCategories.flatMap((c) => [c.name, c.lever, c.description, c.example, ...c.tips]),
+  ...archetypes.flatMap((a) => [
+    a.name, a.animal, a.tagline, a.coreDesire, a.coreFear, a.superpower, a.blindSpot, ...a.tips, ...a.shortTips,
+    ...a.meters.map((m) => m.label),
+  ]),
+  ...scamCategories.flatMap((c) => [c.name, c.shortName, c.lever, c.description, c.example, ...c.tips]),
   ...stressBlurbs.flatMap((b) => [b.title, b.body]),
 ]
 
@@ -86,6 +89,21 @@ describe("archetypes", () => {
     expect(new Set(archetypes.map((a) => a.scams[0]))).toEqual(new Set(SCAM_CATEGORY_IDS))
   })
 
+  it("gives every type its own animal", () => {
+    expect(new Set(archetypes.map((a) => a.animal.toLowerCase())).size).toBe(16)
+  })
+
+  it("has two strength meters and a low blind-spot meter, with short labels", () => {
+    for (const a of archetypes) {
+      expect(a.meters[2].value, a.slug).toBeLessThanOrEqual(2)
+      for (const m of a.meters) expect(words(m.label), `${a.slug}: ${m.label}`).toBeLessThanOrEqual(4)
+    }
+  })
+
+  it("keeps the card tips to 8 words", () => {
+    for (const a of archetypes) for (const tip of a.shortTips) expect(words(tip), tip).toBeLessThanOrEqual(8)
+  })
+
   it("has 4 archetypes per element", () => {
     for (const element of ["fire", "water", "earth", "air"]) {
       expect(archetypes.filter((a) => a.element === element), element).toHaveLength(4)
@@ -97,6 +115,11 @@ describe("scam categories", () => {
   it("defines each category once and validly", () => {
     for (const c of scamCategories) expect(() => scamCategorySchema.parse(c), c.id).not.toThrow()
     expect(scamCategories.map((c) => c.id).sort()).toEqual([...SCAM_CATEGORY_IDS].sort())
+  })
+
+  it("has a unique short name of up to 3 words for the card", () => {
+    for (const c of scamCategories) expect(words(c.shortName), c.shortName).toBeLessThanOrEqual(3)
+    expect(new Set(scamCategories.map((c) => c.shortName)).size).toBe(scamCategories.length)
   })
 })
 

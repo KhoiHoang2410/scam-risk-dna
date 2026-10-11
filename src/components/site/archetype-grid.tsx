@@ -1,5 +1,7 @@
 import Link from "next/link"
+import { PixelArt } from "@/components/pixel-art"
 import { archetypes } from "@/content/archetypes"
+import { ANIMAL_ART } from "@/content/pixel-art"
 import { ELEMENTS } from "@/lib/quiz/model"
 import { resultPath } from "@/lib/quiz/result-url"
 import { ELEMENT_STYLE } from "@/lib/elements"
@@ -22,16 +24,13 @@ export function ArchetypeGrid() {
                   <li key={a.slug}>
                     <Link
                       href={resultPath(a.slug, null)}
-                      className={cn(
-                        "flex h-full flex-col gap-1 rounded-2xl border p-4 transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/40",
-                        style.bg,
-                        style.border,
-                      )}
+                      className="flex h-full flex-col gap-1 border-[3px] border-ink bg-white p-4 text-ink shadow-retro-sm transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/40"
                     >
-                      <span aria-hidden className="text-3xl">
-                        {a.emoji}
-                      </span>
+                      <PixelArt rows={ANIMAL_ART[a.slug]} size={56} className="size-14" />
                       <span className="font-heading font-bold">{a.name}</span>
+                      <span className="font-heading text-xs font-extrabold uppercase tracking-wide text-retro-muted">
+                        {a.animal}
+                      </span>
                       <span className="text-sm text-foreground/70">{a.tagline}</span>
                     </Link>
                   </li>

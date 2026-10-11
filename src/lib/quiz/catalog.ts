@@ -36,6 +36,13 @@ export function buddyOf(archetype: Archetype): Archetype {
   return archetypeForPoles({ ...archetype.poles, [axis]: oppositeOf(archetype.poles[axis]) } as Poles)
 }
 
+export function badInfluenceOf(archetype: Archetype): Archetype {
+  const poles = Object.fromEntries(
+    AXES.map((axis) => [axis, axis === archetype.blindSpotAxis ? archetype.poles[axis] : oppositeOf(archetype.poles[axis])]),
+  )
+  return archetypeForPoles(poles as Poles)
+}
+
 export function stressBlurbFor(archetype: Archetype, shift: Axis) {
   const from = archetype.poles[shift]
   return stressBlurbs.find((b) => b.from === from && b.to === oppositeOf(from))!

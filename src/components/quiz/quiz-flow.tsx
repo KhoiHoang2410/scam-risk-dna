@@ -69,7 +69,7 @@ export function QuizFlow() {
           {index + 1} of {TOTAL} · about {minutesLeft} min left
         </span>
       </div>
-      <Progress value={(index / TOTAL) * 100} className="mt-2 h-2" aria-label="Quiz progress" />
+      <Progress value={(index / TOTAL) * 100} className="mt-2 h-4" aria-label="Quiz progress" />
 
       <section
         key={question.id}
@@ -77,10 +77,11 @@ export function QuizFlow() {
       >
         <p
           className={cn(
-            "w-fit rounded-full px-3 py-1 text-xs font-medium",
-            question.mode === "stress" ? "bg-fire-soft text-fire" : "bg-secondary text-secondary-foreground",
+            "flex w-fit items-center gap-2 border-2 border-ink px-3 py-1 font-heading text-xs font-extrabold",
+            question.mode === "stress" ? "bg-[#3A332D] text-white" : "bg-white text-ink",
           )}
         >
+          <span aria-hidden className={cn("size-2.5", question.mode === "stress" ? "bg-fire" : "bg-earth")} />
           {question.mode === "stress" ? "When you're under pressure" : "On a normal day"}
         </p>
         <h1
@@ -100,14 +101,14 @@ export function QuizFlow() {
               aria-pressed={chosen === option.pole}
               onClick={() => choose(option.pole)}
               className={cn(
-                "group flex min-h-16 w-full items-center gap-4 rounded-2xl border-2 bg-card px-5 py-4 text-left text-base font-medium shadow-xs transition-colors",
-                "hover:border-primary/50 hover:bg-accent focus-visible:border-primary focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/40",
-                chosen === option.pole && "border-primary bg-accent",
+                "group flex min-h-16 w-full items-center gap-4 border-[3px] border-ink bg-white px-5 py-4 text-left text-base font-medium shadow-retro-sm transition-[transform,box-shadow,background-color]",
+                "hover:bg-secondary focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/40 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none",
+                chosen === option.pole && "bg-secondary",
               )}
             >
               <span
                 aria-hidden
-                className="hidden size-7 shrink-0 items-center justify-center rounded-md border text-xs text-muted-foreground sm:flex"
+                className="hidden size-7 shrink-0 items-center justify-center border-2 border-ink font-heading text-xs font-extrabold sm:flex"
               >
                 {i + 1}
               </span>

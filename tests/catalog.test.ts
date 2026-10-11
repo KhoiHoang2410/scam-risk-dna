@@ -3,6 +3,7 @@ import { archetypes } from "@/content/archetypes"
 import { questions } from "@/content/questions"
 import {
   archetypeForPoles,
+  badInfluenceOf,
   buddyOf,
   buildResult,
   categoriesFor,
@@ -59,6 +60,25 @@ describe("buddyOf", () => {
         if (axis === a.blindSpotAxis) expect(buddy.poles[axis], a.slug).not.toBe(a.poles[axis])
         else expect(buddy.poles[axis], a.slug).toBe(a.poles[axis])
       }
+    }
+  })
+})
+
+describe("badInfluenceOf", () => {
+  it("shares the blind-spot pole and flips every other axis", () => {
+    for (const a of archetypes) {
+      const bad = badInfluenceOf(a)
+      for (const axis of AXES) {
+        if (axis === a.blindSpotAxis) expect(bad.poles[axis], a.slug).toBe(a.poles[axis])
+        else expect(bad.poles[axis], a.slug).not.toBe(a.poles[axis])
+      }
+    }
+  })
+
+  it("is never the archetype itself or its buddy", () => {
+    for (const a of archetypes) {
+      expect(badInfluenceOf(a).slug, a.slug).not.toBe(a.slug)
+      expect(badInfluenceOf(a).slug, a.slug).not.toBe(buddyOf(a).slug)
     }
   })
 })

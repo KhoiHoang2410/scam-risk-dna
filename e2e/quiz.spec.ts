@@ -26,7 +26,8 @@ test("taking the whole quiz lands on a result with a defence plan", async ({ pag
   await expectNoA11yViolations(page)
   await answerAll(page, () => 0)
   await expect(page).toHaveURL(/\/r\/[a-z-]+(\/[a-z]+)?$/)
-  await expect(page.getByText("Your type is")).toBeVisible()
+  await expect(page.getByText("You are...")).toBeVisible()
+  await expect(page.getByRole("list", { name: "Your traits" }).getByRole("listitem")).toHaveCount(3)
   await expect(page.getByRole("heading", { name: "Your blind spot", exact: true })).toBeVisible()
   await expect(page.getByRole("heading", { name: /your defence plan/i })).toBeVisible()
   await expectNoA11yViolations(page)
@@ -58,6 +59,8 @@ test("shared result pages render for visitors and point them to the test", async
   await expect(page.getByRole("heading", { name: "The Empath" })).toBeVisible()
   await expect(page.getByRole("heading", { name: "Steady under pressure" })).toBeVisible()
   await expect(page.getByText("Your blind-spot buddy")).toBeVisible()
+  await expect(page.getByRole("img", { name: "Pixel dolphin" })).toBeVisible()
+  await expect(page.getByRole("link", { name: /Bad influence/ })).toHaveAttribute("href", /^\/r\/[a-z-]+$/)
   const og = await page.locator('meta[property="og:image"]').getAttribute("content")
   expect(og).toContain("/r/empath/opengraph-image")
   await page.getByRole("link", { name: "Take the test yourself" }).click()
@@ -71,6 +74,10 @@ test("legacy links redirect and the resume is gone", async ({ page, request }) =
   await expect(page).toHaveURL(/\/$/)
   expect((await request.get("/resume.pdf")).status()).toBe(404)
   expect((await request.get("/r/not-a-type")).status()).toBe(404)
+})
+
+test("the pixel art preview is dev only", async ({ request }) => {
+  expect((await request.get("/dev/pixel-art")).status()).toBe(404)
 })
 
 test("share cards are real PNGs", async ({ request }) => {
