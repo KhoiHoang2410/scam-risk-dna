@@ -4,6 +4,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "investment",
     name: "Fake investments and get-rich groups",
+    shortName: "Fake investments",
     lever: "Fear of missing out",
     description:
       "A slick ad or a friendly stranger pulls you into a can't-lose investment, often crypto or trading, in a group chat full of fake winners. The app shows profits until you try to withdraw.",
@@ -19,6 +20,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "jobs",
     name: "Easy-money jobs and tasks",
+    shortName: "Easy-money jobs",
     lever: "Small wins that build commitment",
     description:
       "A job you never applied for pays you to like videos or rate products. Small payouts arrive first, then you have to top up your own money to unlock bigger tasks.",
@@ -34,6 +36,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "officials",
     name: "Fake police, officials and bank staff",
+    shortName: "Fake officials",
     lever: "Fear plus authority",
     description:
       "Someone posing as police, the tax office or your bank says you are linked to a crime or your account is at risk. They tell you to keep it secret and move your money to a safe account.",
@@ -49,6 +52,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "alerts",
     name: "Urgent alerts, fake links and QR codes",
+    shortName: "Fake alerts",
     lever: "Urgency and autopilot",
     description:
       "A text, email, QR code or search ad that looks like a delivery company, toll road, bank or brand rushes you to fix or claim something, then steals your card details, login or one-time code.",
@@ -64,6 +68,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "loved-one",
     name: "Fake loved ones and bosses",
+    shortName: "Fake loved ones",
     lever: "Love, loyalty and helpfulness",
     description:
       "A call, voice note or message that seems to come from your child, friend or boss asks for urgent money. It uses an AI voice clone, a deepfake video, or their real but hacked account.",
@@ -79,6 +84,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "romance",
     name: "Romance and fake relationships",
+    shortName: "Romance scams",
     lever: "Love and loneliness",
     description:
       "Someone builds a relationship online over weeks, sometimes with AI-written chats and fake photos. Then a crisis, gift, visa or shared investment needs your money. A darker version threatens to leak private images.",
@@ -94,6 +100,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "shopping",
     name: "Shopping, deposits and marketplace scams",
+    shortName: "Shop scams",
     lever: "A good deal and scarcity",
     description:
       "A fake seller takes your deposit for tickets, a phone or a holiday rental that never comes. Or a fake buyer sends a fake payment screenshot to get your goods.",
@@ -109,6 +116,7 @@ export const scamCategories: ScamCategory[] = [
   {
     id: "takeover",
     name: "Phone takeover through apps and remote access",
+    shortName: "Phone takeover",
     lever: "Trust in tech and helpdesks",
     description:
       "You are talked into installing an app from a link, or a screen-sharing tool. It reads your codes or lets the scammer control your phone and empty your bank app.",

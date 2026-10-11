@@ -31,6 +31,12 @@
   --color-earth-soft: var(--earth-soft);
   --color-air: var(--air);
   --color-air-soft: var(--air-soft);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-retro-shadow: var(--retro-shadow);
+  --color-retro-muted: var(--retro-muted);
+  --shadow-retro: 6px 6px 0 var(--retro-shadow);
+  --shadow-retro-sm: 4px 4px 0 var(--retro-shadow);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -67,6 +73,10 @@
   --earth-soft: oklch(0.95 0.04 150);
   --air: oklch(0.5 0.17 290);
   --air-soft: oklch(0.95 0.03 290);
+  --cream: #fbf3e4;
+  --ink: #2a2420;
+  --retro-shadow: #c9bba6;
+  --retro-muted: #7a6a55;
 }
 
 @layer base {

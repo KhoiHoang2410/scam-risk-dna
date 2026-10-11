@@ -63,9 +63,12 @@ export const questionSchema = z
 
 export type Question = z.infer<typeof questionSchema>
 
+const meterSchema = z.object({ label: z.string(), value: z.number().int().min(1).max(5) })
+
 export const archetypeSchema = z.object({
   slug: z.string().regex(/^[a-z-]+$/),
   name: z.string(),
+  animal: z.string(),
   element: z.enum(ELEMENTS),
   emoji: z.string(),
   tagline: z.string(),
@@ -82,6 +85,8 @@ export const archetypeSchema = z.object({
   blindSpotAxis: z.enum(AXES),
   scams: z.tuple([z.enum(SCAM_CATEGORY_IDS), z.enum(SCAM_CATEGORY_IDS)]).refine(([a, b]) => a !== b),
   tips: z.array(z.string()).min(3).max(4),
+  shortTips: z.tuple([z.string(), z.string()]),
+  meters: z.tuple([meterSchema, meterSchema, meterSchema]),
 })
 
 export type Archetype = z.infer<typeof archetypeSchema>
@@ -89,6 +94,7 @@ export type Archetype = z.infer<typeof archetypeSchema>
 export const scamCategorySchema = z.object({
   id: z.enum(SCAM_CATEGORY_IDS),
   name: z.string(),
+  shortName: z.string(),
   lever: z.string(),
   description: z.string(),
   example: z.string(),

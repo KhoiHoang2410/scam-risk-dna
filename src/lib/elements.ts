@@ -16,3 +16,13 @@ export const AXIS_LABEL = {
   heart: { HAR: "Harmony", LOG: "Logic" },
   pace: { SPO: "Momentum", STR: "Control" },
 } as const
+
+export const RETRO = {
+  cream: "#FBF3E4",
+  ink: "#2A2420",
+  shadow: "#C9BBA6",
+  paper: "#FFFFFF",
+  muted: "#7A6A55",
+} as const
+
+export const HASHTAG = "#WhatsYourScamDNA"
